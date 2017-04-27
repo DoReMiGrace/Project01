@@ -19,6 +19,7 @@ public class SmartTV extends Product {
 		return tmp_d;
 	}
 	
+	
 	@Override
 	public String getName(String name) {
 		// TODO Auto-generated method stub
