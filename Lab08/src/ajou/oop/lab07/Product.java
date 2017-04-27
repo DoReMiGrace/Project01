@@ -3,7 +3,8 @@ package ajou.oop.lab07;
 public abstract class Product {
 
 	private double price;
-	public abstract void Product();
+	public Product() {
+	}
 	public double getPrice() {
 		return price;
 	}
@@ -11,7 +12,5 @@ public abstract class Product {
 		this.price = price;
 	}
 	
-	public String getName(String name) {
-		return name;
-	}
+	public abstract String getName(String name);
 }
